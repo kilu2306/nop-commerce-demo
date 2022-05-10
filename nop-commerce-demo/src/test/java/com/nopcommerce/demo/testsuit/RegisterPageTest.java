@@ -64,7 +64,7 @@ public class RegisterPageTest extends TestBase {
         registerPage.selectDay("10");
         registerPage.selectMonth("January");
         registerPage.selectYear("1998");
-        registerPage.enterEmail("mayu123@gmail.com");
+        registerPage.enterEmail("dhyani444@gmail.com");
         registerPage.enterPassword("prime1234");
         registerPage.confirmPassword("prime1234");
         registerPage.clickOnRegisterButton();
