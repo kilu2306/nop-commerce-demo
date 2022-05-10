@@ -44,7 +44,7 @@ public class LogInPageTest extends TestBase {
     @Test(groups = {"regression"})
     public void verifyThatUserShouldLogInSuccessFullyWithValidCredentials() {
         homePage.clickOnLogInLink();
-        logInPage.enterEmail("maya123@gmail.com");
+        logInPage.enterEmail("dhyani444@gmail.com");
         logInPage.enterPassword("prime1234");
         logInPage.clickOnLoginButton();
         Assert.assertTrue(logInHomePage.logOutButonDisplayed());
@@ -54,7 +54,7 @@ public class LogInPageTest extends TestBase {
     @Test(groups = {"regression"})
     public void VerifyThatUserShouldLogOutSuccessFully() {
         homePage.clickOnLogInLink();
-        logInPage.enterEmail("maya123@gmail.com");
+        logInPage.enterEmail("dhyani444@gmail.com");
         logInPage.enterPassword("prime1234");
         logInPage.clickOnLoginButton();
         logInHomePage.clickOnLogOut();
