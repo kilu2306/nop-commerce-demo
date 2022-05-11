@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.List;
 
 public class BuidYourOwnComputerPage extends Utility {
-   public void inIt(){
+   public BuidYourOwnComputerPage(){
        PageFactory.initElements(driver,this);
    }
     @FindBy(xpath = "//h1[contains(text(),'Build your own computer')]")
