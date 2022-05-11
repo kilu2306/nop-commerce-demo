@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class RegistersuccessPage extends Utility {
-    public void inIt(){
+    public RegistersuccessPage(){
         PageFactory.initElements(driver,this);
     }
     @FindBy(xpath = "//div[@class='result']")
