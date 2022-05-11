@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class DesktopPage extends Utility {
 
-    public void inIt() {
+    public  DesktopPage() {
         PageFactory.initElements(driver, this);
 
     }
