@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LogInHomePage extends Utility {
-    public void inIt(){
+    public LogInHomePage (){
         PageFactory.initElements(driver,this);
     }
     @FindBy(xpath = "//a[@class='ico-logout']")
