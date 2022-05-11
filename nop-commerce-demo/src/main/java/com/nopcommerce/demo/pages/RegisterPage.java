@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class RegisterPage extends Utility {
-    public void inIt(){
+    public RegisterPage(){
         PageFactory.initElements(driver,this);
     }
     @FindBy(xpath = "//h1[normalize-space()='Register']")
